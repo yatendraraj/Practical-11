@@ -3,36 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Practical-11</title>
+    <style>
+        table{
+            border: 4px solid blue;
+            border-collapse: separate;
+            border-spacing: 0px;
+            border-radius: 10px;
+            width: 1000px;
+
+            
+        }
+        tr,th,td{
+            border-bottom: 2px solid gray;
+            padding: 10px;
+            font-size: large;
+            
+        }
+        td:nth-child(3){
+            width: 100px;
+        }
+        tr:nth-child(2){
+            font-size: 20px;
+            text-align: justify;
+        }
+        td:nth-child(4){
+            width: 100px;
+            color: green;
+        }
+        tr:last-child{
+            border-bottom: 2px solid blue;
+        }
+        td:nth-child(3){
+            color: grey;
+        }
+        td:hover{
+            background-color: lightgray;
+        }
+        span{
+            display: inline;
+            color: gray;
+
+        }
+        td:nth-child(5){
+            width: 80px;
+        }
+        span:hover{
+            font-size: 30px;
+            color: black;
+        }
+        tr:last-child {
+            border-bottom: none;
+        }
+        
+    </style>
 </head>
-<body style="background-color:sandybrown">
-    <h1 style="color: green;">Welcome to Fullstack Course</h1>
-   <b> <h2>About Course</h2></b>
-    <p>Front-end web development is everything involved in programming the user interface of a web application.
-        Typically it refers to the Hypertext Markup Language(HTML).Cascading Style Sheets(CSS)and JavaScript portion of web site production 
-        as opposed to the database or server-side programming. It encompasses everything from building a simple page of HTML text to
-         creating complex,responsive HTML5 websites designed to be accessed via various different browsers, devices and screen sizes.</p>
-         <h1 style="color: green;">List of Practicals</h1><br>
-         1.Create a web page including HTML basic skeleton using 
-         Offline HTML Editor and Online Sandbox Environment
-         <a href="Practicals/practical-1.html">Practical-1</a><br><br>
-         2.Live your First Web-Page on Git-Hub
-         <a href="Practicals/practical-2.html">Practical-2</a><br><br>
-         3.Create a web page showing a basic html structure using character entities and span tag
-         <a href="Practicals/practical-3.html">Practical-3</a><br><br>
-         4.Create a website having list of all pratical and their individual pratical page links
-        <a href="Practicals/practical-4.html">Practical-4</a><br><br>
-        5.Create a Web-Page showing the use of Image-Map in the Web Application.
-        <a href="Practicals/practical-5.html">Practical-5</a><br><br>
-        6.Create a Card Layout using CSS layout properties.
-        <a href="Practicals/practical-6.html">Practical-6</a><br><br>
-        7.Create a Web Page Layout using div tags.
-        <a href="Practicals/practical-7.html">Practical-7</a><br><br>
-        8.Create a Web Page having Fixed Navigation Bar with the given content.
-        <a href="Practicals/practical-8.html">Practical-8</a><br><br>
-        9. Create a Responsive Web Layout with Responsive Navigation Bar.
-        <a href="Practicals/practical-9.html">Practical-9</a><br><br>
-        10. Create a Responsive Side-Bar Navigation Menu.
-        <a href="Practicals/practical-10.html">Practical-10</a><br><br>
-        11. Create a Table that represent Live Practical Book Records.
-        <a href="Practicals/practical-11.html">Practical-11</a><br><br>
+
+<body>
+    <table align="center">
+        <tr>
+            <th colspan="5" style="color: rgb(255, 255, 255); background-color: blue;">FullStack Live Practical Book</th>
+            
+        </tr>
+        <tr>
+            <th>#</th>
+            <th>Practical Name</th>
+            <th>Link</th>
+            <th>Status</th>
+            <th>Tools</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Create a Web page including HTML basic skeleton using Offline HTML Editor and Online Sandbox Environment.</td>
+            <td>Practical-1</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Live your First Web-page on GitHub.</td>
+            <td>Practical-2</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>3</td>
+            <td>Create a web page showing a basic html structure using character Entities and span Tag.</td>
+            <td>Practical-3</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>4</td>
+            <td>Create a website having list of all practical and their individual practical Page links.</td>
+            <td>Practical-4</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>5</td>
+            <td>Create a weppage which have a multiple clickable links.</td>
+            <td>Practical-5</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>6</td>
+            <td>Create following layout using CSS layout Properties.</td>
+            <td>Practical-6</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>7</td>
+            <td>Create a Web-page of Layouts.</td>
+            <td>Practical-7</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>8</td>
+            <td>Create a web-page having fixed Navigation Bar with the given Content.</td>
+            <td>Practical-8</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>9</td>
+            <td>Create a webpage having responsive Navigation Bar with given Contant.</td>
+            <td>Practical-9</td>
+            <td>Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr><tr>
+            <td>10</td>
+            <td>Create a webpage having side bar Navigation bar with given Content.</td>
+            <td>Practical-10</td>
+            <td style="color: red;">Un-Checked</td>
+            <td><span class="material-icons">create</span><span class="material-icons">delete</span></td>
+
+        </tr>
+    </table>
+</body>
+</html>
